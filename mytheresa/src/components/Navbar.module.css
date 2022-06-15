@@ -1,0 +1,28 @@
+.Mytheresa_Navbar_Main{
+    display: flex;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 90%;
+    height: 46px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    text-align: start;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+}
+.Mytheresa_Navbar_Right{
+    display: flex;
+    width: 260px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.Mytheresa_Navbar_left{
+    display: flex;
+    width: 448px;
+    justify-content: space-between;
+    cursor: pointer;
+}
