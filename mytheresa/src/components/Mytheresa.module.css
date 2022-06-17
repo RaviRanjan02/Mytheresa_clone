@@ -1,5 +1,5 @@
 .Mytheresa_logo_with_shoppping_cart_Main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     margin: 50px auto;
     display: flex;
@@ -15,35 +15,45 @@
   padding: 10px;
   width: 80%;
   text-align: center;
-  margin-left: 90px;
+  margin-left: 290px;
  
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .Mytheresa_logo img{
     width: 293px;
     height: 36px;
     margin-left: 150px;
     cursor: pointer;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .Mytheresa_Shopping_cart{
 width: 25%;
 display: flex;
 
 justify-content: space-evenly;
-border: 2px solid green;
+/* border: 2px solid green; */
 padding: 5px;
 }
-
+.Mytheresa_Shopping_cart_logo{
+  position: relative;
+  
+}
 .Mytheresa_Shopping_cart_logo img{
   width: 50px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   cursor: pointer;
   margin-left: 210x;
   
 }
+.Mytheresa_Shopping_cart_logo_count{
+  position: absolute;
+  color: black;
+  margin-left: 170px;
+  margin-top: 15px;
+  font-size: x-large;
+}
 .Mytheresa_Shopping_cart_Shopping_bag_title{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-size: large;
   width: 200px;
   margin-top: 30px;

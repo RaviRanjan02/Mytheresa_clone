@@ -1,11 +1,11 @@
 .Footer_Main{
-    border: 2px solid rgb(0, 89, 255) ;
+    /* border: 2px solid rgb(0, 89, 255) ; */
     width: 90%;
     margin: 0 auto;
 }
 .Footer_Main div{
 width: 100%;
-border: 2px solid rgb(27, 25, 25) ;
+/* border: 2px solid rgb(27, 25, 25) ; */
 }
 .Footer_Main div img{
     width: 100%;

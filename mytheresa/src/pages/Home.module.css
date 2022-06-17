@@ -1,23 +1,36 @@
 .Mytheresa_Home_Main{
     width: 90%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 .Mytheresa_Home_Men_Women_main{
     width: 90%;
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0 auto;
     padding: 10px;
 }
 .Mytheresa_Home_Women{
     width: 50%;
+    position: relative;
+    color: white;
+    font-size: x-large;
+}
+.Mytheresa_Home_Women_title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2em !important;
+  transform: translate(-50%, -50%);
 }
 .Mytheresa_Home_Women img{
 width: 100%;
 }
 .Mytheresa_Home_Men{
     width: 50%;
+    position: relative;
+    color: white;
+    font-size: x-large;
 }
 .Mytheresa_Home_Men img{
     width: 100%;
@@ -27,7 +40,7 @@ width: 100%;
 }
 .Mytheresa_Home_Kids_Main{
     width: 90%;
-    border: 2px solid rgb(153, 0, 255);
+    /* border: 2px solid rgb(153, 0, 255); */
     margin: 0 auto;
     padding: 10px;
 }
@@ -36,7 +49,17 @@ width: 100%;
 }
 .Mytheresa_Home_Life_Main{
     width: 90%;
-    border: 2px solid rgb(153, 0, 255);
+    /* border: 2px solid rgb(153, 0, 255); */
     margin: 0 auto;
     padding: 10px;
+}
+.Mytheresa_Home_Kids{
+    position: relative;
+    color: white;
+    font-size: x-large;
+}
+.Mytheresa_Home_Life{
+    position: relative;
+    color: white;
+    font-size: x-large;
 }

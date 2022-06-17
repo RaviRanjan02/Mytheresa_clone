@@ -1,0 +1,17 @@
+.Wishlist_Main{
+    border: 1px solid red;
+}
+.Wishlist_Items_layout_main{
+    width: 90%;
+    border: 1px solid blue;
+    margin: 50px auto;
+    display: flex;
+}
+.Wishlist_Items_layout_left{
+    border: 1px solid black;
+    width: 30%;
+}
+.Wishlist_Items_layout_Right{
+    border: 1px solid green;
+    width: 70%;
+}

@@ -1,0 +1,58 @@
+.Mytheresa_Signup_Form_Main{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    color: grey;
+}
+.Mytheresa_Signup_Form_layout_main{
+    width: 90%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+.Mytheresa_Signup_Form_layout_left{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+.Mytheresa_Signup_Form_layout_left div{
+margin: 15px 0px;
+}
+.Mytheresa_Signup_Form_layout_right{
+    /* border: 1px solid rgb(66, 0, 128); */
+    width: 50%;
+    padding: 20px;
+}
+.Form_check_terms_condition_main{
+    display: flex;
+}
+.Form_Radio_Main{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.Form_Radio_Main label{
+    margin-right: 10px ;
+}
+.Form_Radio_Main input{
+    margin-right: 10px;
+}
+.Form_Input_Data_all div{
+width: 90%;
+/* border: 1px solid red; */
+}
+.Form_Input_Data_all div input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+}
+.Form_Input_Data_all div select{
+    width: 100%;
+    outline: none;
+    color: grey;
+    
+}
+
+.SignUp_page_Image{
+    /* border: 1px solid red; */
+    padding: 5px;
+}
