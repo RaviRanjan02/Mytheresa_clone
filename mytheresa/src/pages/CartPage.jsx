@@ -21,7 +21,7 @@ const CartPage = () => {
 
 
   const getUser = async () => {
-    const response = await fetch("http://localhost:8080/cart");
+    const response = await fetch("https://mytheresabackend.herokuapp.com/cart");
     const data = await response.json();
     setCart(data);
     var a = 0;
@@ -36,7 +36,7 @@ const CartPage = () => {
 
 
   function remove(id) {
-    fetch(`http://localhost:8080/cart/${id}`, {
+    fetch(`https://mytheresabackend.herokuapp.com/cart/${id}`, {
       method: "DELETE",
     })
       .then((res) => {
