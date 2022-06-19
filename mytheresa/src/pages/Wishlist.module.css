@@ -1,17 +1,47 @@
 .Wishlist_Main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .Wishlist_Items_layout_main{
     width: 90%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 50px auto;
     display: flex;
 }
 .Wishlist_Items_layout_left{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 30%;
 }
 .Wishlist_Items_layout_Right{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Wishlist_product_Main_container_Right_layout{
+    /* border: 1px solid red; */
+    
+    width: 30%;
+    margin: 10px;
+}
+.Wishlist_product_Main_container_Right_product{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.Wishlist_product_Main_container_Right_product div{
+margin: 10px;
+}
+.Wishlist_product_Main_container_Right_product_button{
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Wishlist_product_Main_container_Right_product_price{
+    font-weight: 1000;
+}
+.Wishlist_product_Main_container_left{
+    width: 85%;
+    /* border: 1px solid blue; */
 }

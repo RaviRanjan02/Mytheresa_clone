@@ -10,6 +10,10 @@ import SignIn from './pages/SignIn';
 import CartPage from './pages/CartPage';
 import Wishlist from './pages/Wishlist';
 import { Divider } from '@chakra-ui/react'
+import Mens from './pages/Mens';
+import Women from './pages/Women';
+import Kids from './pages/Kids';
+import Life from './pages/Life';
 
 
 function App() {
@@ -17,16 +21,21 @@ function App() {
   return (
     <div className="App">
       
-      <Navbar/>
+      {/* <Navbar/>
       <MytheresaLogo/>
       <Categories/>
       <Divider orientation='horizontal' />
       <Home/>
-      <Footer/>
+      <Footer/> */}
       {/* <SignUp/> */}
       {/* <SignIn/> */}
-      {/* <CartPage/> */}
+      <CartPage/>
       {/* <Wishlist/> */}
+      {/* <Mens/> */}
+      
+      {/* <Women/> */}
+      {/* <Kids/> */}
+      {/* <Life/> */}
     </div>
   );
 }

@@ -341,6 +341,92 @@
       "price": "$409"
     }
   ],
-  "cart": [],
-  "whishlist": []
+  "cart": [
+    {
+      "productimage_url": "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/75/P00675838.jpg",
+      "productprice": "$1515",
+      "productname": "VALENTINO",
+      "producttitle": "Logo cotton-blend jacket",
+      "id": 1
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/8e/P00675821.jpg",
+      "productprice": "$899",
+      "productname": "VALENTINO",
+      "producttitle": "Printed shirt",
+      "id": 2
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/cb/P00675802.jpg",
+      "productprice": "$1099",
+      "productname": "VALENTINO",
+      "producttitle": "Striped cotton Shirt",
+      "id": 3
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/34/P00675766.jpg",
+      "productprice": "$3499",
+      "productname": "VALENTINO",
+      "producttitle": "Logo sweatpants",
+      "id": 4
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/6f/P00675560.jpg",
+      "productprice": "$1899",
+      "productname": "GUCCI",
+      "producttitle": "Shoulder bag",
+      "id": 5
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/86/P00675082.jpg",
+      "productprice": "$899",
+      "productname": "GUCCI",
+      "producttitle": "Tie neck blouse",
+      "id": 6
+    }
+  ],
+  "whishlist": [
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/a5/P00688053.jpg",
+      "productprice": "$799",
+      "productname": "ZIMMERMANN",
+      "producttitle": "Maxi dress",
+      "id": 1
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/66/P00688417.jpg",
+      "productprice": "$699",
+      "productname": "ZIMMERMANN",
+      "producttitle": "Mini dress",
+      "id": 2
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/88/P00630790.jpg",
+      "productprice": "$449",
+      "productname": "THE ROW",
+      "producttitle": "Wide-leg jeans",
+      "id": 3
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/6f/P00675560.jpg",
+      "productprice": "$1899",
+      "productname": "GUCCI",
+      "producttitle": "Shoulder bag",
+      "id": 4
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/41/P00591993.jpg",
+      "productprice": "$199",
+      "productname": "MOSCHINO KIDS",
+      "producttitle": "Socks sneaker",
+      "id": 5
+    },
+    {
+      "productimage_url": "https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/df/P00633051.jpg",
+      "productprice": "$799",
+      "productname": "BURBERRY KIDS",
+      "producttitle": "Trench coat",
+      "id": 6
+    }
+  ]
 }

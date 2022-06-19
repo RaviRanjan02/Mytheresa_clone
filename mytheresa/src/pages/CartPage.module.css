@@ -1,0 +1,144 @@
+.CartPage_Main{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.CartPage_all_content{
+    /* border: 1px solid rgb(2, 168, 52); */
+    width: 90%;
+    margin: 0 auto;
+}
+.CartPage_your_shoppingbag_checkout{
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between ;
+}
+.Cartpage_proceed_checkout_button{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.CartPage_price_quantity_subtotal{
+    display: flex;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    width: 90%;
+    justify-content: flex-end;
+}
+.CartPage_price_qty{
+    display: flex;
+    width: 330px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.CartPage_items_Main{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding: 20px;
+}
+.CartPage_items_right{
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.CartPage_items_right div{
+    /* border: 1px solid red; */
+    width: 100px;
+}
+.CartPage_items_left{
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.CartPage_items_left_image{
+    /* border: 1px solid red; */
+    width: 30%;
+    padding: 5px;
+}
+.CartPage_items_left_description{
+    /* border: 1px solid red; */
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: grey;
+}
+.your_current_promotion{
+    width: 90%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.checkout_main_cont{
+    width: 90%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.promocode_subtotal_main{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: flex;
+}
+.promocode_subtotal_input_code_button{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.promocode_subtotal_input{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+.promocode_subtotal_input input{
+    border: 1px solid rgb(233, 233, 233);
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.promocode_subtotal_button button{
+    /* border: 1px solid red; */
+    background-color: rgb(168, 168, 168);
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    padding: 12px;
+    
+}
+.subtotal_grandtotal_main{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 100px;
+}
+.subtotal_grandtotal_main div span{
+font-weight: bold;
+color: black;
+}
+.subtotal_grandtotal_main_cont{
+    /* border: 1px solid blue; */
+    width: 40%;
+    margin-left: 70px;
+}
+.checkout_shopping_button_main{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}

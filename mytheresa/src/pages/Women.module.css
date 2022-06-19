@@ -1,0 +1,115 @@
+.Womens_Main{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #757575;
+    background-color: #ffffff;
+}
+.Womens_page_main_layout{
+    width: 95%;
+    /* border: 1px solid blue; */
+    margin: 10px auto;
+}
+.Womens_breadcurms{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.Womens_Sale_Non_sale{
+    width: 20%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.Womens_product_Main_container{
+    width:100% ;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 30px;
+}
+.Womens_product_Main_container_left{
+    width: 25%;
+    padding: 30px;
+    /* border: 1px solid blue; */
+}
+.Womens_product_Main_container_Right{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid purple;
+}
+.Womens_breadcurms_features{
+    width: 28%;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+}
+.Womens_breadcurms_features div{
+    /* border: 1px solid red; */
+    width: 15px;
+    display: flex;
+}
+.Breadcrumb_pageniate{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    
+}
+.Breadcrumb_pageniate div{
+    text-align: center;
+
+
+    
+}
+.Breadcrumb_sort{
+    /* border: 1px solid red;  */
+    width: 100px;
+}
+.Breadcrumb_sort select{
+    /* border: 1px solid red;  */
+    width: 100px;
+}
+.Breadcrumb_total_proudct_count{
+    border: 1px solid rgb(255, 255, 255);
+}
+.Breadcrumb_pageniate_arrow{
+    border: 1px solid rgb(255, 255, 255);
+}
+.Womens_Sale_Non_main{
+    display: flex;
+}
+.Womens_product_Main_container_Right_layout{
+    /* border: 1px solid red; */
+    
+    width: 30%;
+    margin: 10px;
+}
+.Womens_product_Main_container_Right_product{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.Womens_product_Main_container_Right_product div{
+margin: 10px;
+}
+.Womens_product_Main_container_Right_product_button{
+    /* border: 1px solid green; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Womens_product_Main_container_Right_product_price{
+    font-weight: 1000;
+}
