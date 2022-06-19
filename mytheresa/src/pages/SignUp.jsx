@@ -22,10 +22,6 @@ const SignUp = () => {
 
   return (
     <div className={styles.Mytheresa_Signup_Form_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Mytheresa_Signup_Form_layout_main}>
         <form className={styles.Mytheresa_Signup_Form_layout_left}>
           <div>

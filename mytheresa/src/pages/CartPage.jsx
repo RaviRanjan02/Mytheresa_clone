@@ -10,17 +10,30 @@ const CartPage = () => {
   
   const [cart ,setCart] = useState([])
 
-  
+  const [total,setTotal]=useState([])
+  const [discount, setDiscount] = useState(30 / 100);
+  const [redeem, setRedeem] = useState({
+    couponCode: "",
+  });
+  const [check, setCheck] = useState(false);
+
+
+
   const getUser = async () => {
     const response = await fetch("http://localhost:8080/cart");
     const data = await response.json();
     setCart(data);
+    var a = 0;
+    var add = 0;
+    data.map((e) => {
+      a = +e.productprice;
+      add += a;
+    });
+    setTotal(total + add);
+    
   };
-  
-  useEffect(() => {
-    getUser();
-  }, []);
-  
+
+
   function remove(id) {
     fetch(`http://localhost:8080/cart/${id}`, {
       method: "DELETE",
@@ -37,13 +50,35 @@ const CartPage = () => {
         console.log(error);
       });
   }
+
+  const handleChange = (e) => {
+    setRedeem({ ...redeem, [e.target.name]: e.target.value });
+   
+  };
+
+
+  const handleClick = (e) => {
+      if (redeem.couponCode === "Masai30") {
+      setCheck(true);
+      setTotal(Math.floor(total-( discount * total)));
+    } else {
+      setCheck(false);
+      
+    }
+  };
+
+ 
+
+  
+
+ 
+  useEffect(() => {
+    getUser();
+  }, []);
+  
   
   return (
     <div className={styles.CartPage_Main}>
-    <Navbar/>
-    <MytheresaLogo/>
-    <Categories/>
-    <hr></hr>
     <div className={styles.CartPage_all_content}>
         <div className={styles.CartPage_your_shoppingbag_checkout}>
       <div>YOUR SHOPPING BAG</div>
@@ -90,16 +125,19 @@ const CartPage = () => {
     </div>
     <hr></hr>
     <div className={styles.checkout_main_cont}>
-      <div>Use code SALE for extra 20% off selected items on sale orders over €600</div>
+      <div>Use code SALE for extra 30% off selected items on using Coupon code Masai30</div>
       <div className={styles.promocode_subtotal_main}>
         <div className={styles.promocode_subtotal_input_code_button}>
-          <div className={styles.promocode_subtotal_input}><input type="text" placeholder="Gift Card/Store Credit/Promo Code" ></input></div>
-          <div className={styles.promocode_subtotal_button}><button>USE CODE</button></div>
+          <div className={styles.promocode_subtotal_input}>
+            <input type="text" placeholder="Gift Card/Store Credit/Promo Code" value={redeem.couponCode}
+              onChange={handleChange}  name="couponCode"></input>
+            </div>
+          <div className={styles.promocode_subtotal_button}><button  onClick={handleClick}>USE CODE</button></div>
         </div>
         <div className={styles.subtotal_grandtotal_main_cont}>
           <div className={styles.subtotal_grandtotal_main}>
-          <div>Subtotal	:<span> € 660.00</span></div>
-          <div>Grand Total :<span> € 660.00</span></div>
+          <div>Subtotal	:<span>{total}</span></div>
+          <div>Grand Total :<span>{total}</span></div>
           </div>
           <div>VAT exception. VAT not included. Shipping not included.</div>
         </div>

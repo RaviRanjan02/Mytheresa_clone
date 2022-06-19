@@ -62,10 +62,6 @@ const Mens = () => {
 
   return (
     <div className={styles.Mens_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Mens_page_main_layout}>
         <div className={styles.Mens_breadcurms}>
           <div className={styles.Mens_breadcurms_features}>

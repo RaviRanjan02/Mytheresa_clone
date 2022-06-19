@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import styles from "../components/SliderImageWomen.module.css";
+import { Link } from "react-router-dom";
 
 const KidsImageSlider = () => {
   
@@ -159,7 +160,7 @@ const KidsImageSlider = () => {
           </div>
         </Slider>
         </div>
-        <div className={styles.Slider_elments_view_all}><button>View All</button></div>
+       <Link to="/kids"> <div className={styles.Slider_elments_view_all}><button>View All</button></div></Link>
       </div>
   )
 }

@@ -14,6 +14,7 @@ import Mens from './pages/Mens';
 import Women from './pages/Women';
 import Kids from './pages/Kids';
 import Life from './pages/Life';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -21,21 +22,22 @@ function App() {
   return (
     <div className="App">
       
-      {/* <Navbar/>
+      <Navbar/>
       <MytheresaLogo/>
       <Categories/>
       <Divider orientation='horizontal' />
-      <Home/>
-      <Footer/> */}
-      {/* <SignUp/> */}
-      {/* <SignIn/> */}
-      <CartPage/>
-      {/* <Wishlist/> */}
-      {/* <Mens/> */}
-      
-      {/* <Women/> */}
-      {/* <Kids/> */}
-      {/* <Life/> */}
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/men' element={<Mens/>}></Route>
+      <Route path='/women' element={<Women/>}></Route>
+      <Route path='/kids' element={<Kids/>}></Route>
+      <Route path='/life' element={<Life/>}></Route>
+      <Route path='/signup' element={<SignUp/>}></Route>
+      <Route path='/signin' element={<SignIn/>}></Route>
+      <Route path='/cart' element={<CartPage/>}></Route>
+      <Route path='/wishlist' element={<Wishlist/>}></Route>
+      </Routes>
+      <Footer/> 
     </div>
   );
 }

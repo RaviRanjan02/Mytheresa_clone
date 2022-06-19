@@ -44,7 +44,7 @@
 .Kids_product_Main_container_Right{
     width: 75%;
     display: flex;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     /* justify-content: space-between; */
     flex-wrap: wrap;
 }

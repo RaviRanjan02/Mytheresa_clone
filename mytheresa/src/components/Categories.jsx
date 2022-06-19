@@ -28,18 +28,18 @@ const Categories = () => {
               <PopoverArrow />
               <PopoverCloseButton />
               <PopoverBody>
-                <Box w="100%" display="flex" bg='#ffffff'>
-                  <Box marginLeft="50px">JUST IN</Box>
-                  <Box marginLeft="200px">DISCOVER</Box>
+                <Box w="100%" display="flex" bg='#ffffff' >
+                  <Box marginLeft="50px" >JUST IN</Box>
+                  <Box marginLeft="200px" >DISCOVER</Box>
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                 
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%" display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -49,14 +49,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%">
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -79,12 +79,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+            
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -94,14 +94,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -124,12 +124,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                  
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -139,14 +139,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -169,12 +169,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                  
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -184,14 +184,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -214,12 +214,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                  
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -229,14 +229,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -259,12 +259,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                  
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -274,14 +274,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -304,12 +304,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                  
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -319,14 +319,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%" >
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -349,12 +349,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                 
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%"  display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -364,14 +364,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%">
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>
@@ -394,12 +394,12 @@ const Categories = () => {
                 </Box>
                 <Box
                   w="100%"
-                  borderWidth="1px"
+                 
                   display="flex"
                   alignItems="center"
                 >
-                  <Box w="50%" borderWidth="1px" display='flex' padding="5px">
-                    <Box w="50%" borderWidth="1px">
+                  <Box w="50%" display='flex' padding="5px">
+                    <Box w="50%" >
                     <Box>Current Week</Box>
                     <Box>Previous Weeks</Box>
                     <Box>Essentials</Box>
@@ -409,14 +409,14 @@ const Categories = () => {
                     <Box>Outdoor & Activewear</Box>
                     <Box>The Gift Shop</Box>
                     </Box>
-                    <Box w="50%" borderWidth="1px">
+                    <Box w="50%">
                     <Box>Clothing</Box>
                     <Box>Shoes</Box>
                     <Box>Bags</Box>
                     <Box>Accessories</Box>
                     </Box>
                   </Box>
-                  <Box w="50%" borderWidth="1px" padding="5px">
+                  <Box w="50%"  padding="5px">
                     <img src="https://img.mytheresa.com/media/static/raw/cms/l/gate_page_2022/Gatepage_May22_desktop_2x_20220513093955.jpg?imwidth=1180&imdensity=1" alt=""></img>
                   </Box>
                 </Box>

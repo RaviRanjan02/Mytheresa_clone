@@ -45,7 +45,7 @@
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 .Womens_breadcurms_features{
     width: 28%;
@@ -113,3 +113,11 @@ margin: 10px;
 .Womens_product_Main_container_Right_product_price{
     font-weight: 1000;
 }
+
+
+
+
+
+
+
+

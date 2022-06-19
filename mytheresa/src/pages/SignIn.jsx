@@ -5,6 +5,7 @@ import MytheresaLogo from "../components/MytheresaLogo";
 import Navbar from "../components/Navbar";
 import styles from "../pages/SignIn.module.css";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   const SignInformpageslide = {
@@ -20,14 +21,10 @@ const SignIn = () => {
 
   return (
     <div className={styles.Mytheresa_SignIn_Form_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Mytheresa_SignIn_Form_layout_main}>
       <form className={styles.Mytheresa_SignIn_Form_layout_left}>
         <div>
-          <h3>ALREADY REGISTERED?</h3>
+       <Link to="/signup"><h3>IF NOT REGISTERED? CLICK HERE TO REGISTER </h3></Link>   
         </div>
         <div>
           <p>If you have an account with us, please log in.</p>

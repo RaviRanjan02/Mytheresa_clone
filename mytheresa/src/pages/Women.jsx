@@ -66,10 +66,6 @@ const Women = () => {
 
   return (
     <div className={styles.Womens_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Womens_page_main_layout}>
         <div className={styles.Womens_breadcurms}>
           <div className={styles.Womens_breadcurms_features}>

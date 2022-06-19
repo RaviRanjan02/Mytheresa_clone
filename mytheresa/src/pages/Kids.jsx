@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Categories from "../components/Categories";
 import Footer from "../components/Footer";
-import MytheresaLogo from "../components/MytheresaLogo";
-import Navbar from "../components/Navbar";
 import axios from "axios";
 import styles from "../pages/Kids.module.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -62,10 +59,6 @@ const Kids = () => {
 
   return (
     <div className={styles.Kids_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Kids_page_main_layout}>
         <div className={styles.Kids_breadcurms}>
           <div className={styles.Kids_breadcurms_features}>

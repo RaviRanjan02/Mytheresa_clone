@@ -63,10 +63,6 @@ const Life = () => {
   
     return (
     <div className={styles.Life_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Life_page_main_layout}>
         <div className={styles.Life_breadcurms}>
           <div className={styles.Life_breadcurms_features}>

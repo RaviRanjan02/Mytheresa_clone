@@ -58,10 +58,6 @@ const Wishlist = () => {
 
   return (
     <div className={styles.Wishlist_Main}>
-      <Navbar />
-      <MytheresaLogo />
-      <Categories />
-      <hr></hr>
       <div className={styles.Wishlist_Items_layout_main}>
         <div className={styles.Wishlist_Items_layout_left}>
           <div className={styles.Wishlist_product_Main_container_left}>
