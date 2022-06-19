@@ -1,3 +1,6 @@
+
+import { useEffect, useState } from 'react';
+import { useContext } from "react"
 import React from "react";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
@@ -6,6 +9,8 @@ import Navbar from "../components/Navbar";
 import styles from "../pages/SignIn.module.css";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const SignIn = () => {
   const SignInformpageslide = {
@@ -18,6 +23,12 @@ const SignIn = () => {
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
+
+
+
+
+
+
 
   return (
     <div className={styles.Mytheresa_SignIn_Form_Main}>

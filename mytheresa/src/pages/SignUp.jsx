@@ -1,12 +1,12 @@
-import React from "react";
+import { useEffect, useState } from 'react';
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
-import MytheresaLogo from "../components/MytheresaLogo";
-import Navbar from "../components/Navbar";
 import styles from "../pages/SignUp.module.css";
 import { Button } from "@chakra-ui/react";
 import { Checkbox } from "@chakra-ui/react";
+import { useNavigate } from 'react-router-dom';
 import Slider from "react-slick";
+import axios from 'axios';
 
 const SignUp = () => {
   const Signupformpageslide = {
@@ -19,6 +19,60 @@ const SignUp = () => {
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
+
+  const navigate = useNavigate();
+  
+  const [userData, setUserData] = useState({
+    fullName: "",
+    mobileNumber: "",
+    email: "",
+    password: ""
+});
+
+const [data, setData] = useState([]);
+    
+    const handleChange = (e) => {
+        const{ name, value } = e.target;
+        setUserData({
+            ...userData,
+            [name]: value,
+        });
+        console.log(e.target);
+    };
+
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setUserData([...data, userData]);
+
+      axios.post('https://bewakoof-projects.herokuapp.com/register', userData).then(() => {
+          alert('SignUp Successfully');
+          navigate('/login');
+
+          setUserData({
+              fullName: "",
+              mobileNumber: "",
+              email: "",
+              password: ""
+          });
+          
+      });
+  };
+
+  useEffect(() => {
+      getData();
+  },[]);
+   
+  const getData = () => {
+    axios.get('https://bewakoof-projects.herokuapp.com/register').then((res) => {
+        setData(res.data);
+        console.log(res.data);
+    });
+};
+ 
+
+
+
 
   return (
     <div className={styles.Mytheresa_Signup_Form_Main}>
@@ -59,19 +113,16 @@ const SignUp = () => {
               </select>
             </div>
             <div>
-              <input type="text" placeholder="first name *"></input>
+              <input type="text" placeholder="first name *" value={userData.fullName} name='fullName' onChange={handleChange}></input>
             </div>
             <div>
-              <input type="text" placeholder="last name *"></input>
+              <input type="text" placeholder="Mobile Number *" value={userData.mobileNumber} name='mobileNumber' onChange={handleChange}></input>
             </div>
             <div>
-              <input type="email" placeholder="email address *"></input>
+              <input type="email" placeholder="email address *" value={userData.email} name='email' onChange={handleChange}></input>
             </div>
             <div>
-              <input type="password" placeholder="password *"></input>
-            </div>
-            <div>
-              <input type="password" placeholder="confirm password *"></input>
+              <input type="password" placeholder="password *" value={userData.password} name='password' onChange={handleChange}></input>
             </div>
           </div>
 
@@ -98,7 +149,7 @@ const SignUp = () => {
             <p>* required fields</p>
           </div>
           <div>
-            <Button colorScheme="gray" color="black">
+            <Button colorScheme="gray" color="black" onClick={handleSubmit}>
               Register
             </Button>
           </div>
