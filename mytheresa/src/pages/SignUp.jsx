@@ -47,7 +47,7 @@ const [data, setData] = useState([]);
 
       axios.post('https://bewakoof-projects.herokuapp.com/register', userData).then(() => {
           alert('SignUp Successfully');
-          navigate('/login');
+          navigate('/signin');
 
           setUserData({
               fullName: "",

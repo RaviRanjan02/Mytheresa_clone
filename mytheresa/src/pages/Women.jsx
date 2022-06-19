@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Categories from "../components/Categories";
 import Footer from "../components/Footer";
-import MytheresaLogo from "../components/MytheresaLogo";
-import Navbar from "../components/Navbar";
+
 import styles from "../pages/Women.module.css";
 import axios from "axios";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";

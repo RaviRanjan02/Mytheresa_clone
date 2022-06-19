@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import MytheresaLogo from '../components/MytheresaLogo'
 import Navbar from '../components/Navbar'
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "../pages/CartPage.module.css"
 const CartPage = () => {
   
@@ -82,7 +83,7 @@ const CartPage = () => {
     <div className={styles.CartPage_all_content}>
         <div className={styles.CartPage_your_shoppingbag_checkout}>
       <div>YOUR SHOPPING BAG</div>
-      <div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div>
+      <Link to="/thanks"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
     </div>
     <div className={styles.CartPage_price_quantity_subtotal}>
       <div></div>
@@ -143,8 +144,8 @@ const CartPage = () => {
         </div>
       </div>
       <div className={styles.checkout_shopping_button_main}>
-      <div className={styles.Cartpage_proceed_checkout_button}><button>CONTINUE SHOPPING</button></div>
-        <div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div>
+      <Link to="/"><div className={styles.Cartpage_proceed_checkout_button}><button>CONTINUE SHOPPING</button></div></Link>
+        <Link to="/thanks"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
         
       </div>
     </div>

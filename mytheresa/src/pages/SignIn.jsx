@@ -1,16 +1,14 @@
 
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 import { useContext } from "react"
 import React from "react";
-import Categories from "../components/Categories";
 import Footer from "../components/Footer";
-import MytheresaLogo from "../components/MytheresaLogo";
-import Navbar from "../components/Navbar";
 import styles from "../pages/SignIn.module.css";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { AuthContext } from "../context/Authcontext";
 
 const SignIn = () => {
   const SignInformpageslide = {
@@ -24,10 +22,41 @@ const SignIn = () => {
     cssEase: "linear",
   };
 
+  const navigate = useNavigate();
+  const {handleAuth}=useContext(AuthContext)
+  const [mobNo, setMobNo] = useState("");
 
+  const handleChange = (e) => {
+    setMobNo(e.target.value);
+  };
 
+  const handleLogin = (mobileNumber) => {
+    console.log("mobile",mobileNumber)
+    if(mobileNumber===""){
+      return alert("mobile number cannot be empty")
+    }
+    else{
 
-
+    
+    axios
+      .post("https://bewakoof-projects.herokuapp.com/number", {
+        mobileNumber: mobileNumber,
+      })
+      .then((res) => {
+         console.log("abhi",res.data.token)
+        if(res.data.token){
+          handleAuth(true)
+            navigate(-2 ,{replace:true})
+        }
+        else{
+          navigate("/signup");
+        } 
+      })
+      .catch((e) => {
+        navigate("/signup");
+      });
+    }
+  };
 
 
   return (
@@ -42,10 +71,7 @@ const SignIn = () => {
         </div>
         <div className={styles.SingIn_Form_Input_Data_all}>
           <div>
-            <input type="email" placeholder="email address *"></input>
-          </div>
-          <div>
-            <input type="password" placeholder="password *"></input>
+            <input type="number" placeholder=" enter mobile no *" onChange={handleChange} ></input>
           </div>
         </div>
         <div>
@@ -55,7 +81,10 @@ const SignIn = () => {
           <p>Forgot Your Password?</p>
         </div>
         <div>
-          <button className={styles.Login_Button}>Login</button>
+          <button className={styles.Login_Button} onClick={() => {
+                handleLogin(mobNo);
+                navigate("/")
+              }}>Login</button>
         </div>
         <div className={styles.SingIn_Form_check_terms_condition_main}>
           <div>
