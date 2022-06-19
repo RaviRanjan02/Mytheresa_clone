@@ -26,7 +26,7 @@ const Women = () => {
     const [womens, setWomens] = useState([]);
 
     const getWomens = async () => {
-        const response = await fetch("http://localhost:8080/womens");
+        const response = await fetch("https://mytheresabackend.herokuapp.com/womens");
         const data = await response.json();
         setWomens(data);
       };
@@ -43,7 +43,7 @@ const Women = () => {
       productname: e.name,
       producttitle: e.category,
     };
-    axios.post(`http://localhost:8080/cart`, cartData);
+    axios.post(`https://mytheresabackend.herokuapp.com/cart`, cartData);
     // alert("id");
     console.log(cartData);
   };
@@ -55,7 +55,7 @@ const Women = () => {
       productname: e.name,
       producttitle: e.category,
     };
-    axios.post(`http://localhost:8080/whishlist`, WhislistData);
+    axios.post(`https://mytheresabackend.herokuapp.com/whishlist`, WhislistData);
     // alert("id");
     console.log(WhislistData);
   };

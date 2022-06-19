@@ -27,7 +27,7 @@ const Life = () => {
     const [life, setLife] = useState([]);
 
     const getLife = async () => {
-      const response = await fetch("http://localhost:8080/Life");
+      const response = await fetch("https://mytheresabackend.herokuapp.com/Life");
       const data = await response.json();
       setLife(data);
     };
@@ -43,7 +43,7 @@ const Life = () => {
         productname: e.name,
         producttitle: e.category,
       };
-      axios.post(`http://localhost:8080/cart`, cartData);
+      axios.post(`https://mytheresabackend.herokuapp.com/cart`, cartData);
       // alert("id");
       console.log(cartData);
     };
@@ -55,7 +55,7 @@ const Life = () => {
         productname: e.name,
         producttitle: e.category,
       };
-      axios.post(`http://localhost:8080/whishlist`, WhislistData);
+      axios.post(`https://mytheresabackend.herokuapp.com/whishlist`, WhislistData);
       // alert("id");
       console.log(WhislistData);
     };

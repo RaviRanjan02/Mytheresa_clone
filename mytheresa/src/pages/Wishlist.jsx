@@ -19,7 +19,7 @@ const Wishlist = () => {
   const [wish, setWish] = useState([]);
 
   const getUser = async () => {
-    const response = await fetch("http://localhost:8080/whishlist");
+    const response = await fetch("https://mytheresabackend.herokuapp.com/whishlist");
     const data = await response.json();
     setWish(data);
     console.log(data);
@@ -36,13 +36,13 @@ const Wishlist = () => {
       productname: e.name,
       producttitle: e.category,
     };
-    axios.post(`http://localhost:8080/cart`, cartData);
+    axios.post(`https://mytheresabackend.herokuapp.com/cart`, cartData);
     alert("id");
     console.log(cartData);
   };
 
   function remove(id) {
-    fetch(`http://localhost:8080/whishlist/${id}`, {
+    fetch(`https://mytheresabackend.herokuapp.com/whishlist/${id}`, {
       method: "DELETE",
     })
       .then((res) => {
