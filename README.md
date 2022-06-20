@@ -10,7 +10,7 @@ Mytheresa is a German e-commerce luxury fashion company, with headquarters in Mu
 After getting this project by Masai in construct week. I went through the actual website to understand the entire flow and noted down all the important features which were to be implemented. I created a roadmap for the project (Structure of the project,  with specific timelines).
 
 # Tech Stacks Used:
-I used React JS,MongoDB,Json-Server,Node Js,Express Js,Chakra UI,React icons,Heruko for building this Project .We also used tools like Github for hosting our project.
+I used React JS,MongoDB,Json-Server,Node Js,Express Js,Chakra UI,React icons,Heruko for building this Project .I also used tools like Github for hosting our project.
 
 
 # Snaps of my Website:
