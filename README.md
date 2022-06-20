@@ -1,6 +1,6 @@
 # Mytheresa_clone
 
-## Introduction to my project([https://www.mytheresa.com/int_en/?log=geo&loc=f](https://www.mytheresa.com/int_en/?log=geo&loc=f) clone):
+## Introduction to my project:
 
 Mytheresa is a German e-commerce luxury fashion company, with headquarters in Munich, Germany. Founded in 2006, it operates local-language based websites for international markets in English, German, Spanish, French, Italian, Arabic, Chinese and Korean.
 
