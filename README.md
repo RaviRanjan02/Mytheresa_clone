@@ -5,7 +5,7 @@
 Mytheresa is a German e-commerce luxury fashion company, with headquarters in Munich, Germany. Founded in 2006, it operates local-language based websites for international markets in English, German, Spanish, French, Italian, Arabic, Chinese and Korean.
 
 
-# Work division and working together:
+# Project work flow:
 
 After getting this project by Masai in construct week. I went through the actual website to understand the entire flow and noted down all the important features which were to be implemented. I created a roadmap for the project (Structure of the project,  with specific timelines).
 
