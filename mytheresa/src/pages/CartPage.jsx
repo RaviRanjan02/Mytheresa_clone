@@ -83,7 +83,7 @@ const CartPage = () => {
     <div className={styles.CartPage_all_content}>
         <div className={styles.CartPage_your_shoppingbag_checkout}>
       <div>YOUR SHOPPING BAG</div>
-      <Link to="/thanks"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
+      <Link to="/shipping"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
     </div>
     <div className={styles.CartPage_price_quantity_subtotal}>
       <div></div>
@@ -145,7 +145,7 @@ const CartPage = () => {
       </div>
       <div className={styles.checkout_shopping_button_main}>
       <Link to="/"><div className={styles.Cartpage_proceed_checkout_button}><button>CONTINUE SHOPPING</button></div></Link>
-        <Link to="/thanks"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
+        <Link to="/shipping"><div className={styles.Cartpage_proceed_checkout_button}><button>PROCEED TO CHECKOUT</button></div></Link>
         
       </div>
     </div>

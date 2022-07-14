@@ -174,7 +174,7 @@ const [data, setData] = useState([]);
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

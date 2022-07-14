@@ -1,0 +1,128 @@
+
+.Payment_Main_all_layout{
+    /* border: 1px solid rgb(0, 38, 255); */
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Payment-geeklogo img{
+    width: 200px;
+   
+   }
+   .Payment-geeklogo{
+       text-align: center;
+   }
+   .Payment-top{
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       
+   }
+   .Payment-all{
+       width: 90%;
+       display: flex;
+       justify-content: flex-start;
+       margin: 0 auto;
+   }
+   .payment-gateway-left{
+       width: 70%;
+       display: flex;
+       flex-direction: column;
+ }
+ .payment-gateway-body{
+     display: flex;
+     width: 90%;
+     margin: 0 auto;
+ }
+ .payment-gateway-right{
+     display: flex;
+     flex-direction: column;
+     width: 30%;
+ }
+ .payment-gateway-order-no{
+     display: flex;
+     justify-content: space-between;
+ }
+ .payment-gateway-grand-total{
+     display: flex;
+     justify-content: space-between;
+ }
+ .payment-gateway-payable-amount{
+     display: flex;
+     justify-content: space-between;
+ }
+ .payemnt-gateway-pay{
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .payemnt-gateway-pay button{
+     width: 400px;
+     height: 40px;
+     font-size: x-large;
+     font-weight: bolder;
+     color: white;
+     background-color: #070707;
+     border: none;
+     margin-top: 20px;
+     
+ }
+ .payment-footer{
+     width: 100%;
+     margin-top: 50px;
+ }
+ .payment-footer-payment-gateway{
+     display: flex;
+     justify-content: center;
+ }
+ .payment-copyright{
+     display: flex;
+     justify-content: center;
+ }
+ .payment-gateway-left div img{
+     padding: 10px;
+ }
+ .payment-gateway-left div p{
+     margin-left: 30px;
+     color: grey;
+ }
+ .payment-gateway-order-no div{
+     font-weight: bolder;
+ }
+ .payment-gateway-grand-total div{
+     font-weight: bolder;
+ }
+ .payment-gateway-grand-total div:nth-child(2){
+     color: rgb(14, 13, 13);
+     font-size: x-large;
+ }
+ .payment-gateway-payable-amount div{
+     font-weight: bolder;
+ }
+ .payment-gateway-payable-amount div:nth-child(2){
+     color: rgb(3, 3, 3);
+     font-size: x-large;
+ }
+ .payment-gateway-right{
+     margin-left: 20px;
+ }
+ .payment-gateway-right-body{
+     border: 1px solid grey;
+ }
+ .payment-gateway-left{
+     border: 1px solid grey; 
+ }
+ .payment-gateway-order-no{
+     padding: 5px;
+     margin-bottom: 5px;
+ }
+ .payment-gateway-grand-total{
+     padding: 5px;
+     margin-top: 5px;
+ }
+ .payment-gateway-payable-amount{
+     padding: 5px;
+     margin-top: 10px;
+ }
+ 

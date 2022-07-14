@@ -17,6 +17,8 @@ import Life from './pages/Life';
 import { Route, Routes } from 'react-router-dom';
 import Thanks from './pages/Thanks';
 import PrivateRoute from './PrivateRoute';
+import Payment from './pages/Payment';
+import Shipping from './pages/Shipping';
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
       <Route path='/signin' element={<SignIn/>}></Route>
       <Route path='/cart' element={<PrivateRoute><CartPage/></PrivateRoute>}></Route>
       <Route path='/wishlist' element={<PrivateRoute><Wishlist/></PrivateRoute>}></Route>
+      <Route path='/payment' element={<Payment/>}></Route>
+      <Route path='/shipping' element={<Shipping/>}></Route>
       <Route path='/thanks' element={<Thanks/>}></Route>
       </Routes>
       <Footer/> 
